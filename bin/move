@@ -5,7 +5,7 @@ require_relative '../lib/move.rb'
 puts "Welcome to Tic Tac Toe!" 
 
 #display board--why would this not have the full board layout?
-#call dsiplay board method, board as argument
+
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
@@ -16,4 +16,5 @@ input_to_index(user_input)
 
 move(board)
 
+#call dsiplay board method, board as argument
 display_board(board)
