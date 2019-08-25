@@ -7,6 +7,7 @@ puts "Welcome to Tic Tac Toe!"
 #display board--why would this not have the full board layout?
 #call dsiplay board method, board as argument
 
+display_board(board)
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 puts "Where would you like to go?"
@@ -16,4 +17,4 @@ input_to_index(user_input)
 
 move(board)
 
-display_board(board)
+
