@@ -13,7 +13,7 @@ end
 
 
 #return modified board with updated user input
-def move(board, user_input, value)
-  board[user_input.to_i] = value = "X"
+def move(board, user_input, value = "X")
+  board[user_input.to_i] = value
 end
 
